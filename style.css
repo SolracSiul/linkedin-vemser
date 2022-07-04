@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 60px;
+    display: flex;
+    background-color: #FFF;
+    margin-bottom: 20px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E5E5E5;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.parte1{
+    display: flex;
+    flex-direction: row;
+    /* background-color: blue; */
+    height: 8vh;
+    width: 10vw;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.parte1 img{
+    width: 36px;
+    height: 36px;
+}
+.parte2{
+    /* background-color: yellow; */
+    width: 35vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    margin-right: 10px;
+}
+.parte2 ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.parte2 li{
+    margin: 2px;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.parte2 i{
+    font-size: 16px;
+    color: black;
+}
+.parte3{
+    /* background-color: aqua;  */
+    width: 25vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.parte3 input[type=text]{
+    margin-top: 3px;
+    margin-left: 25px;
+    height: 20px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border-radius: 1px;
+    outline: none;
+    border: 0 none;
+}
+.parte3 i{
+    position: absolute;
+    margin-left: 3px;
+    color:#0275B1;
+}
+.parte4{
+    /* background-color: antiquewhite;  */
+    width: 30vw;
+    height: 8vh;
+    display: flex;
+}
+.parte4 img{
+    height: 46px;
+    /* margin-top: 8px; */
+    margin-left: 5px;
+}
+.parte4 div{
+    margin-left: 10px;
+}
+.parte4 div div{
+    display: flex;
+    margin-top: 10px;
+}
+.parte4 div div i{
+    color:green;
+}
+.parte4 div p:last-child{
+    color:rgb(93, 240, 93);
+}
+
+.parte5{
+    /* background-color: rgb(177, 115, 34);  */
+    width: 8vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+/* Parte de Zen - Início */
+img {
+    width: 100%;
+}
+
+.row {
+    padding: 0 130px;
+    display: table;
+    max-width: 1440px;
+}
+
+.card {
+    background-color: #FFF;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Início das Sections Principais */
+section {
+    float: left;
+    width: 75%;
+}
+
+div section article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+div section article p {
+    font-size: 14px;
+}
+
+div section article:first-child {
+    height: 360px;
+}
+
+div section article div:first-child img {
+    border-radius: 4px 4px 0 0;
+}
+/* essa div está quebrando a div do about, refazer a primeira sessão! */
+ div section article div:last-child {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0 25px; 
+}
+
+div section article div:last-child img {
+    width: 170px;
+    height: 170px;
+    margin-top: -25px;
+}
+
+div section article div:last-child div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-2{
+    height: 260px;
+    /* background-color: rgb(168, 64, 64); */
+    display: flex !important; 
+    flex-direction: column;
+    border-radius: 4px;
+}
+.card-2 h2, p, a{
+    margin: 0 20px 0 20px;
+}
+.card-2 p{
+    margin: 10px 20px 10px 20px;
+}
+.card-2 h2{
+    margin-top: 60px;
+    font: bold;
+}
+.card-2 a{
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color:#0275B1;
+    font-size: 12px;
+}
+.btn-card-2-first{
+    text-transform: uppercase;
+    height: 50px;
+    width: 240px;
+    border: none;
+    background: linear-gradient(360deg, rgba(14,103,149,1) 0%, rgba(0,119,181,1) 100%);
+    border-radius: 4px 4px 0 0;
+    color: #fff;
+}
+.btn-card-2{
+    margin-top: 10px;
+    background-color: #FFF;
+    width: 240px;
+    height: 40px;
+    border: 1px solid #E7E7E7;
+    border-radius: 4px 4px 0 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.card .card-section-3{
+    margin: 20px ;
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+}
+.card .card-section-3 span{
+    margin-left: 15px;
+    color: #747474;
+}
+.card-3{
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.card-3 div{
+    margin-top: 15px;
+    min-height: 140px;
+    min-width: 250px;     
+}
+.card-3 div img{
+    min-width: 100%;
+    height: 100%;
+}
+.card-3 div h2{
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 5px;
+}
+.card-3 div span{
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 8px;
+    color: gray;
+}
+.card-3 a{
+    color:#0275B1;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 2px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.card-3 a:hover{
+    text-decoration: underline;
+}
+.card-section-4{
+    margin: 15px;
+}
+.card-4{
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 26px;
+    column-gap: 20px;
+    /* background-color: red; */
+}
+.card-4 div{
+    min-height: 80px;
+    min-width: 250px;     
+    background-color: #fff;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #f4f4f4;
+    background-repeat: no-repeat;
+    background-image: url(./assets/img/users\ \(1\).png);
+    background-position: 10% 70%;
+}
+.card-4 div h2{
+    padding: 8px 0 0 15px;
+    font-size: 14px;
+}
+.card-4 div span{
+    padding: 8px 10px;
+    color: #0275B1;
+}
+.card-4 a{
+    color:#0275B1;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 2px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.card-5-experience{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 100px 100px;
+    gap: 10px;
+    margin: 15px;
+}
+.card-5-experience div{
+    background-color: aqua;
+    min-width: 50px;
+}
+.card-5-freelance{
+    display: flex;
+    flex-direction: row;
+}
+.card-5-freelance div{
+    background-color: red;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+}
+.card-5-freelance div:first-child{
+    background-color: yellowgreen;
+    width: 50px;
+    height: 100px;
+    display: flex;
+    align-items: start;
+}
+.card-5-freelance div:first-child img{
+    width: 54px;
+    height: 54px;
+    margin-top: 11px;
+}
+.card-5-freelance div:first-child i{
+    color: white;
+    margin-top: 30px;
+    margin-left: -35px;
+}
+.card-5-freelance div:last-child{
+    background-color: rgb(208, 208, 153);
+    width:80%;
+}
+/* .card-5-fl-title{
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom:5px; 
+    box-sizing: border-box;
+} */
+.card-5-freelance-parte2{
+    background-color: rgb(166, 124, 124) !important;
+    /* position: absolute; */
+}
+
+/* .card-5-freelance img:first-child{
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 44px;
+    height: 46px;
+    background-color: blue;
+}
+.card-5-freelance i{
+    color: white;
+    margin-top: 45px;
+    margin-left: -30px;
+} */
+
+
+
+/* Final das Sections Principal */
+
+/* Configuração dos Buttons */
+ /* button {
+    width: 170px;
+    height: 32px;
+    background: linear-gradient(360deg, rgba(14,103,149,1) 0%, rgba(0,119,181,1) 100%);
+    border-radius: 4px;
+    border: 0;
+    margin-right: 15px;
+    font-size: 12px;
+    color: #FFF;
+}   */
+
+/* Incício do Aside */
+aside {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+div aside article {
+    width: 100%;
+    height: 360px;
+}
+
+aside article div div {
+    margin: 10px;
+}
+
+div aside article:first-child div:first-child div:first-child div:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #CCC;
+}
+
+div aside article:first-child div:first-child div p, small {
+    font-size: 10px;
+    flex-wrap: nowrap;
+    text-align: center;
+    /* margin-right: 10px; */
+    /* margin-left: 20px; */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+div aside article:first-child div:first-child div p {
+    margin-left: 35px;
+    color: #0275B1;
+    font-weight: bold;
+}
+
+div aside article:first-child div:first-child div small {
+    font-weight: bold;
+}
+
+aside article:first-child div:last-child {
+    display: flex;
+    flex-direction: column;
+}
+
+aside article div:last-child h2, h3, h4 {
+    color: #0275B1;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+aside article div:last-child span {
+    color: #000;
+    margin-bottom: 10px;
+}
+/* Final do Aside */
+
+
+footer {
+    padding: 10px 5px 10px 0;
+    background: #191970;
+    color: #FFF;
+    margin-top: 20px;
+    height: 30vh;
+ }
+
+footer div {
+    /* background-color: #000; */
+    height: 4.3vh;
+    display: grid;
+    flex-wrap: nowrap;
+    /* grid-row-start: 3; */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+footer div div {
+    height: 100px;
+    border: 1px solid #CCC;
+}
+
+/* Parte de Zen - Final */
